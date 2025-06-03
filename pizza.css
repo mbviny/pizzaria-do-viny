@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:  url(imagem\ pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.cardapio-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardapio {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cardapio:hover {
+  transform: scale(1.05);
+  border-color: #e74c3c;
+}
+
+.cardapio h2 {
+  margin-top: 0;
+  color: #e74c3c;
+}
+
+.cardapio p {
+  color: #555;
+}
+
+.preço {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
